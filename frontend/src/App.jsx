@@ -49,7 +49,7 @@ const Root = () => {
   // Check if token exists in local storage
   const isAuthenticated = !!localStorage.getItem("token");
   return isAuthenticated ? (
-    <Navigate to="/dashboard" />
+    <Navigate to="/login" />
   ) : (
     <Navigate to="/login" />
   );
