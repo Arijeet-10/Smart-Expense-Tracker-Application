@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://your-backend-host.com/api/$1" },
+    { "source": "/api/(.*)", "destination": "https://expense-tracker-application-backend.vercel.app/api/$1" },
     { "source": "/(.*)", "destination": "/" }
   ]
 }
