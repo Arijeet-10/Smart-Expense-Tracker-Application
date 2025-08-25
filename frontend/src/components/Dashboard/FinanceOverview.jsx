@@ -19,7 +19,7 @@ const FinanceOverview = ({ totalBalance = 0, totalIncome = 0, totalExpense = 0 }
       <CustomPieChart
         data={balanceData}
         label="Total Balance"
-        totalAmount={`$${totalBalance || 0}`}  // ✅ Prevent undefined errors
+        totalAmount={`₹${totalBalance || 0}`}  // ✅ Prevent undefined errors
         colors={COLORS}
         showTextAnchor={true}  // ✅ Ensure this is correctly passed
       />

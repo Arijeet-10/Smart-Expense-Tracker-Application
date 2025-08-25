@@ -50,7 +50,7 @@ const StatsInfoCard = ({ icon, label, value, color }) => {
         </div>
         <div>
           <h6 className="text-xs text-gray-500 mb-1">{label}</h6>
-          <span className="text-[2opx]">${value}</span>
+          <span className="text-[2opx]">₹{value}</span>
         </div>
     </div>
   )
