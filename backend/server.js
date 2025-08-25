@@ -45,14 +45,6 @@ app.get("/", (req, res) => {
 
 // Start server
 module.exports = app;
-
-
-<<<<<<< HEAD
-app.get("/", (req, res) => {
-  res.send("✅ Expense Tracker API is running...");
-});
-
 const PORT = process.env.PORT || 5000;
 app.listen(PORT,() => console.log(`Server running on port ${PORT}`));
-=======
->>>>>>> 894c4a8cc598a96d89b81132cf98e055fdc13a1f
+
